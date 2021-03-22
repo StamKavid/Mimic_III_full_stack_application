@@ -24,9 +24,13 @@ Also, here are the steps of how to get access to MIMIC III: https://towardsdatas
 Now that we know some things about this dataset, I think it is a great idea to analyze it.
 
 
-# 1. Exploratory Data Analysis (EDA) & Machine Learning
+# 1. Exploratory Data Analysis (EDA) & Machine Learning (w/ iPython)
 
 EDA helps to bring out points from datasets that may not be analyzed by standard data science algorithms. It helps in better data understanding and it is known for capturing and analyzing uncommon data patterns that will be skipped by typical machine learning algorithms.
 
-You can find the EDA & Modeling here:
+You can find the EDA & Modeling here: https://github.com/StamKavid/Mimic_III_full_stack_application/blob/main/DataScience_part/Data_Science_part.ipynb
+
+***Note:*** This was one of my first projects, so I kept the Data Scince & Machine Learning algorithm as it was. Of course, there can be a lot of enchancements.
+
+# 2. Back end (w/ Flask)
 
