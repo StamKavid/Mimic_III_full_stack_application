@@ -43,6 +43,12 @@ I used REST API architecture. A REST API is an application programming interface
 
 Separating like this becomes a powerful tool for code reuse and code organization. 
 
+I provided to endpoints:
+
+- **/stats**: Provide meaningful aggregations based on the data set. (like histogram, pie chart etc.)
+
+- **/models**: This endpoint should accept the data for an individual patient, in the format of the original file and return the predicted duration of hospitalization for that patient.
+
 For the modeling part, I used Joblib to keep the model [save & load], which is a set of tools to provide lightweight pipelining in Python.
 
 You can find all the code of the Back end here: https://github.com/StamKavid/Mimic_III_full_stack_application/tree/main/API
