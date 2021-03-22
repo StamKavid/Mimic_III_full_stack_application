@@ -34,3 +34,27 @@ You can find the EDA & Modeling here: https://github.com/StamKavid/Mimic_III_ful
 
 # 2. Back end (w/ Flask)
 
+I used REST API architecture. A REST API is an application programming interface (API) that conforms to the constraints of REST architectural style and allows for interaction with RESTful web services.
+
+***Controller & Service Logic***
+
+- **Controller** is used to orchestrate the work.
+- **Service** is used to execute the work
+
+Separating like this becomes a powerful tool for code reuse and code organization. 
+
+For the modeling part, I used Joblib to keep the model [save & load], which is a set of tools to provide lightweight pipelining in Python.
+
+You can find all the code of the Back end here: https://github.com/StamKavid/Mimic_III_full_stack_application/tree/main/API
+
+# 3. Front end (w/ React)
+
+React. js is an open-source JavaScript library that is used for building user interfaces specifically for single-page applications. It's used for handling the view layer for web and mobile apps. 
+
+For the web app I created the layout with Bootstrap and I created to routes: 
+
+- One for the modeling part **/models** 
+- One for the visualization part, that containts some statistics **/stats**
+
+You can find all the code of the Front end here: https://github.com/StamKavid/Mimic_III_full_stack_application/tree/main/Web_app
+
