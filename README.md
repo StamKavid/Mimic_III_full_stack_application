@@ -23,7 +23,6 @@ Also, here are the steps of how to get access to MIMIC III: https://towardsdatas
 
 Now that we know some things about this dataset, I think it is a great idea to analyze it.
 
-
 # 1. Exploratory Data Analysis (EDA) & Machine Learning (w/ iPython)
 
 EDA helps to bring out points from datasets that may not be analyzed by standard data science algorithms. It helps in better data understanding and it is known for capturing and analyzing uncommon data patterns that will be skipped by typical machine learning algorithms.
@@ -31,6 +30,8 @@ EDA helps to bring out points from datasets that may not be analyzed by standard
 You can find the EDA & Modeling here: https://github.com/StamKavid/Mimic_III_full_stack_application/blob/main/DataScience_part/Data_Science_part.ipynb
 
 ***Note:*** This was one of my first projects, so I kept the Data Scince & Machine Learning algorithm as it was. Of course, there can be a lot of enchancements.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # 2. Back end (w/ Flask)
 
@@ -47,11 +48,23 @@ I provided to endpoints:
 
 - **/stats**: Provide meaningful aggregations based on the data set. (like histogram, pie chart etc.)
 
+![image](https://user-images.githubusercontent.com/69797374/112065055-ad96c480-8b6c-11eb-9bb2-50bd92f619b0.png)
+
 - **/models**: This endpoint should accept the data for an individual patient, in the format of the original file and return the predicted duration of hospitalization for that patient.
+
+**Request**
+
+![image](https://user-images.githubusercontent.com/69797374/112065125-cdc68380-8b6c-11eb-91c4-515b894dc6ca.png)
+
+**Response**
+
+![image](https://user-images.githubusercontent.com/69797374/112065150-d5862800-8b6c-11eb-9f28-f40841e627e1.png)
 
 For the modeling part, I used Joblib to keep the model [save & load], which is a set of tools to provide lightweight pipelining in Python.
 
 You can find all the code of the Back end here: https://github.com/StamKavid/Mimic_III_full_stack_application/tree/main/API
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # 3. Front end (w/ React)
 
@@ -61,6 +74,8 @@ For the web app I created the layout with Bootstrap and I created to routes:
 
 - One for the modeling part **/models** 
 - One for the visualization part, that containts some statistics **/stats**
+
+![image](https://user-images.githubusercontent.com/69797374/112065227-f6e71400-8b6c-11eb-8ca4-502df6862401.png)
 
 You can find all the code of the Front end here: https://github.com/StamKavid/Mimic_III_full_stack_application/tree/main/Web_app
 
