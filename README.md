@@ -1,7 +1,12 @@
-# Mimic III Full Stack application
-This is a full stack application, that contains Back-End (w/ Flash), Front-End (w/ React), as well Data Science and Machine Learning (w/ Python) for MIMIC-III dataset. The goal of this application is to correlate the patients' interactions with the duration of their hospitalization.
+# Mimic III Full Stack application: Project Overview
+This is a full stack application, that contains: 
+* Back-End (w/ Flash) 
+* Front-End (w/ React) 
+* Data Science and Machine Learning (w/ Python)  
+ 
+The goal of this application is to correlate the patients' interactions with the duration of their hospitalization.
 
-# - Dataset knowledge
+## Dataset knowledge
 
 The first thing that a Data Scientist must do is to check and find the right dataset. It is so critical to every project, that without a good Dataset, or without having the knowledge of the features inside, you will not be able to do anything! 
 
@@ -9,7 +14,7 @@ It is like you are a chef and you are using low quality products or you are usin
 
 So, the first thing you have to do is to understand your **dataset**.
 
-## - What is Mimic-III dataset?
+## What is Mimic-III dataset?
 
 **MIMIC-III** (Medical Information Mart for Intensive Care) is a large, single-center database comprising information relating to patients admitted to critical care units at a large tertiary care hospital. It includes vital signs, medications, laboratory measurements, observations and notes charted by health care providers (HCPs), fluid balance, procedure codes, diagnostic codes (Each record in the dataset includes ICD-9 codes) and more. The original MIMIC-III dataset consists of 28 tables with millions of entries.
 
@@ -23,7 +28,7 @@ Also, here are the steps of how to get access to MIMIC III: https://towardsdatas
 
 Now that we know some things about this dataset, I think it is a great idea to analyze it.
 
-# 1. Exploratory Data Analysis (EDA) & Machine Learning (w/ iPython)
+## 1. Exploratory Data Analysis (EDA) & Machine Learning (w/ iPython)
 
 EDA helps to bring out points from datasets that may not be analyzed by standard data science algorithms. It helps in better data understanding and it is known for capturing and analyzing uncommon data patterns that will be skipped by typical machine learning algorithms.
 
@@ -33,7 +38,7 @@ You can find the EDA & Modeling here: https://github.com/StamKavid/Mimic_III_ful
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# 2. Back end (w/ Flask)
+## 2. Back end (w/ Flask)
 
 I used REST API architecture. A REST API is an application programming interface (API) that conforms to the constraints of REST architectural style and allows for interaction with RESTful web services.
 
@@ -66,7 +71,7 @@ You can find all the code of the Back end here: https://github.com/StamKavid/Mim
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# 3. Front end (w/ React)
+## 3. Front end (w/ React)
 
 React. js is an open-source JavaScript library that is used for building user interfaces specifically for single-page applications. It's used for handling the view layer for web and mobile apps. 
 
