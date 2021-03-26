@@ -53,17 +53,17 @@ I provided to endpoints:
 
 - **/stats**: Provide meaningful aggregations based on the data set. (like histogram, pie chart etc.)
 
-![image](https://user-images.githubusercontent.com/69797374/112065055-ad96c480-8b6c-11eb-9bb2-50bd92f619b0.png)
+![](https://github.com/StamKavid/Mimic_III_full_stack_application/blob/main/Images/JSON%20data.png)
 
 - **/models**: This endpoint should accept the data for an individual patient, in the format of the original file and return the predicted duration of hospitalization for that patient.
 
 **Request**
 
-![image](https://user-images.githubusercontent.com/69797374/112065125-cdc68380-8b6c-11eb-91c4-515b894dc6ca.png)
+![](https://github.com/StamKavid/Mimic_III_full_stack_application/blob/main/Images/Request%20to%20Postman.png)
 
 **Response**
 
-![image](https://user-images.githubusercontent.com/69797374/112065150-d5862800-8b6c-11eb-9f28-f40841e627e1.png)
+![](https://github.com/StamKavid/Mimic_III_full_stack_application/blob/main/Images/Response%20to%20Postman.png)
 
 For the modeling part, I used Joblib to keep the model [save & load], which is a set of tools to provide lightweight pipelining in Python.
 
@@ -80,7 +80,7 @@ For the web app I created the layout with Bootstrap and I created to routes:
 - One for the modeling part **/models** 
 - One for the visualization part, that containts some statistics **/stats**
 
-![image](https://user-images.githubusercontent.com/69797374/112065227-f6e71400-8b6c-11eb-8ca4-502df6862401.png)
+![](https://github.com/StamKavid/Mimic_III_full_stack_application/blob/main/Images/Front%20end%20-%20Web%20app.png)
 
 You can find all the code of the Front end here: https://github.com/StamKavid/Mimic_III_full_stack_application/tree/main/Web_app
 
