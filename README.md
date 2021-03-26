@@ -28,7 +28,7 @@ Also, here are the steps of how to get access to MIMIC III: https://towardsdatas
 
 Now that we know some things about this dataset, I think it is a great idea to analyze it.
 
-## 1. Exploratory Data Analysis (EDA) & Machine Learning (w/ iPython)
+## [1. Exploratory Data Analysis (EDA) & Machine Learning (w/ iPython)](https://github.com/StamKavid/Mimic_III_full_stack_application/tree/main/DataScience_part)
 
 EDA helps to bring out points from datasets that may not be analyzed by standard data science algorithms. It helps in better data understanding and it is known for capturing and analyzing uncommon data patterns that will be skipped by typical machine learning algorithms.
 
@@ -38,7 +38,7 @@ You can find the EDA & Modeling here: https://github.com/StamKavid/Mimic_III_ful
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 2. Back end (w/ Flask)
+## [2. Back end (w/ Flask)](https://github.com/StamKavid/Mimic_III_full_stack_application/tree/main/API)
 
 I used REST API architecture. A REST API is an application programming interface (API) that conforms to the constraints of REST architectural style and allows for interaction with RESTful web services.
 
@@ -71,7 +71,7 @@ You can find all the code of the Back end here: https://github.com/StamKavid/Mim
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## 3. Front end (w/ React)
+## [3. Front end (w/ React)](https://github.com/StamKavid/Mimic_III_full_stack_application/tree/main/Web_app)
 
 React. js is an open-source JavaScript library that is used for building user interfaces specifically for single-page applications. It's used for handling the view layer for web and mobile apps. 
 
