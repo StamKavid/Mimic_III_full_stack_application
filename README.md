@@ -67,8 +67,6 @@ I provided to endpoints:
 
 For the modeling part, I used Joblib to keep the model [save & load], which is a set of tools to provide lightweight pipelining in Python.
 
-You can find all the code of the Back end here: https://github.com/StamKavid/Mimic_III_full_stack_application/tree/main/API
-
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## [3. Front end (w/ React)](https://github.com/StamKavid/Mimic_III_full_stack_application/tree/main/Web_app)
@@ -81,6 +79,3 @@ For the web app I created the layout with Bootstrap and I created to routes:
 - One for the visualization part, that containts some statistics **/stats**
 
 ![](https://github.com/StamKavid/Mimic_III_full_stack_application/blob/main/Images/Front%20end%20-%20Web%20app.png)
-
-You can find all the code of the Front end here: https://github.com/StamKavid/Mimic_III_full_stack_application/tree/main/Web_app
-
