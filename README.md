@@ -1,11 +1,22 @@
 # Mimic III Full Stack application: Project Overview
 This is a full stack application, that contains: 
-* Back-End (w/ Flash) 
+* Back-End (w/ Flask) 
 * Front-End (w/ React) 
 * Data Science and Machine Learning (w/ Python)  
  
 The goal of this application is to correlate the patients' interactions with the duration of their hospitalization.
 
+## Resources used
+
+**Python Version:** 3.7
+
+**Flask Version:** 1.1.2
+
+**React Version:** 17.0.1
+
+**Packages:** scipy, numpy, pandas, matplotlib, plotly, sklearn, seaborn, catboost, xgboost
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Dataset knowledge
 
 The first thing that a Data Scientist must do is to check and find the right dataset. It is so critical to every project, that without a good Dataset, or without having the knowledge of the features inside, you will not be able to do anything! 
