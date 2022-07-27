@@ -82,7 +82,7 @@ For the modeling part, I used Joblib to keep the model [save & load], which is a
 
 React. js is an open-source JavaScript library that is used for building user interfaces specifically for single-page applications. It's used for handling the view layer for web and mobile apps. 
 
-For the web app I created the layout with Bootstrap and I created to routes: 
+For the web app I created the layout with Bootstrap and I created two routes: 
 
 - One for the modeling part **/models** 
 - One for the visualization part, that containts some statistics **/stats**
